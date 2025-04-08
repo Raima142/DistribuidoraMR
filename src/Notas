@@ -1,0 +1,13 @@
+PRIORIDAD DE CREACION DE LAS CLASES PARA EL PROYECTO:
+Primero se creo la clase DistribuidoraMR, la cual se debe establecer como la principal para correr el proyecto durante las pruebas.
+Segundo se creo la clase Conexion: aqui se establece la conexion con la base de datos que se usara en todo el proyecto.
+Luego se creo los jframes de PanelLogin y PanelPrincipal, los diseños de estos se iran ajustando a lo largo del proyecto.
+Luego se creo la clase Combo (para poder manejar los distintos combobox).
+Luego se creo la clase Clientes, ClientesDao y ClientesControllers, estas 3 clases son utiles para codificar de la misma manera
+las demas clases.
+
+FINALIDAD DE LOS 3 TERMINOS EN LOS NOMBRES DE LAS CLASES:
+1.El nombre en si de la clase es para establecer los parametros, constructores y metodos para que se puedan manejar estos parametros,
+los parametos deben llevar el mismo nombre que las columnas de su tabla correspondiente en la base de datos.
+2.Dao, en las clases Dao se establecen las distintas instrucciones a ejecutar en la base de datos.
+3.Controllers, en estas clases se configura el comportamiento de los parametros graficos de los jframes, como los botones, paneles, etc.
